@@ -28,8 +28,8 @@ layer {
     phase: TEST
   }
   data_param {
-    source: "/home/viplab/netv2_test/"
-    batch_size: 1
+    source: "/home/viplab/vip3d_test/"
+    batch_size: 32
     backend: LMDB
   }
   octree_param {
@@ -188,7 +188,7 @@ layer {
   top: "oct3vxl"
   octree_param {
     curr_depth: 2
-    batch_size: 1
+    batch_size: 32
   }
 }
 layer {

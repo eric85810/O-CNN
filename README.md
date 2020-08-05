@@ -36,7 +36,7 @@
 `name: "ip2"` -> `name: "re-ip2"`  
 `num_output: 40` -> `num_output: 5` 
 並執行以下指令  
-`/home/viplab/ocnn/caffe/build/tools/caffe train -solver solver_M40_5.prototxt --weights="ocnn_M40_5.caffemodel"`  
+`/home/viplab/ocnn/caffe/build/tools/caffe train -solver solver_M40_5.prototxt --weights="M40_5.caffemodel"`  
 
 ## 驗證
 將需要驗證的3D模型依上述方法建立lmdb，並將prototxt中test資料集來源改成此lmdb  

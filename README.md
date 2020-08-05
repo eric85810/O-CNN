@@ -8,7 +8,6 @@
 下載virtual scanner: https://github.com/wang-ps/O-CNN/tree/master/virtual_scanner  
 將資料夾內的.off轉成.points  
 `./virtualscanner ~/vip3d`  
-.off與.points原檔下載: http://163.22.20.110:8080/share.cgi?ssid=0JI8dJD  
 
 ## 將.points轉成.octree
 先製作一個.txt內容是.points的絕對路徑  
